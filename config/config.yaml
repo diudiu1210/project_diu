@@ -1,0 +1,21 @@
+logger :
+  name: python25
+  level: WARNING
+  file: python25.txt
+
+database:
+  host: "120.78.128.25"
+  port: 3306
+  password: "123456"
+  user: "future"
+  charset: "utf8"
+  database: "futureloan"
+
+#login这个是测试账号，不是测试数据
+login:
+  mobile_phone: 13327216491
+  pwd: 12345678
+
+recharge:
+  member_id:
+  amount:
