@@ -1,8 +1,9 @@
+#-*- coding:UTF-8 -*-
 from lib import HTMLTestRunnerNew
 import unittest
 import os
 from datetime import datetime
-#-*- coding:UTF-8 -*-
+
 # 1.初始化testloader
 from config.setting import config
 
