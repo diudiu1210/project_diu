@@ -14,7 +14,7 @@ ts=datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
 file_name="test_result_{}.html".format(ts)
 file_path=os.path.join(config.report_path,file_name)
 with open(file_path,"wb") as f:
-    runner= HTMLTestRunnerNew.HTMLTestRunner(f, verbosity=2, title="丢丢的excel/ddt测试报告", tester="丢丢")
+    runner= HTMLTestRunnerNew.HTMLTestRunner(f, verbosity=2, title="report test", tester="diudiu")
     runner.run(suite)
 
 
